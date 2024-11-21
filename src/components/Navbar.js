@@ -25,8 +25,8 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className={`link ${activeLink === 'shop' ? 'active' : ''}`} to="/shop" onClick={() => handleClass('shop')}>
-                Shop
+              <Link className={`link ${activeLink === 'buy' ? 'active' : ''}`} to="/buy" onClick={() => handleClass('buy')}>
+                Buy
               </Link>
             </li>
             <li>
